@@ -1,0 +1,30 @@
+dev:
+  propel:
+    param:
+      classname: DebugPDO
+test:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: DebugPDO
+      dsn: 'pgsql:host=localhost;dbname=jobeet_test'
+      username: phppgadmin
+      password: MN1@njvr
+      
+cache:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: DebugPDO
+      
+all:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: PropelPDO
+      dsn: 'pgsql:host=localhost;dbname=jobeet'
+      username: phppgadmin
+      password: MN1@njvr
+      encoding: utf8
+      persistent: true
+      pooling: true

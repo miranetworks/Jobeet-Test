@@ -1,0 +1,1224 @@
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:23:33 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:23:33 symfony [info] {sfFrontWebController} Redirect to "http://jobeet.localhost/frontend_cache.php/en/"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send header "Location: http://jobeet.localhost/frontend_cache.php/en/"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send content (117 o)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:23:33 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:23:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:23:33 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:23:33 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:23:33 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:23:33 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:23:33 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:23:33 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:23:33 symfony [info] {main} Get slot "title"
+Jan 11 12:23:33 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:23:33 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:23:33 symfony [info] {sfWebResponse} Send content (5400 o)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:24:55 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:24:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:24:55 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:24:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:24:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:24:55 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:24:55 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:24:55 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:24:55 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:24:55 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:24:55 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:24:55 symfony [info] {main} Get slot "title"
+Jan 11 12:24:55 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:24:55 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:24:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:24:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} Configuration 7162.52 ms (12)
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} Action "job/index" 49.96 ms (1)
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 65.90 ms (1)
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} Partial "job/_list" 12.23 ms (2)
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} Component "language/language" 9.81 ms (1)
+Jan 11 12:24:55 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.24 ms (1)
+Jan 11 12:24:55 symfony [info] {sfWebResponse} Send content (202163 o)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:25:23 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:25:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:25:23 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:25:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:25:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:25:23 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:25:23 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:25:23 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:25:23 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:25:23 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:25:23 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:25:23 symfony [info] {main} Get slot "title"
+Jan 11 12:25:23 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:25:23 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:25:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:25:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} Configuration 1.90 ms (12)
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} Action "job/index" 46.14 ms (1)
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 75.87 ms (1)
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} Partial "job/_list" 13.65 ms (2)
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} Component "language/language" 9.02 ms (1)
+Jan 11 12:25:23 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.51 ms (1)
+Jan 11 12:25:23 symfony [info] {sfWebResponse} Send content (202160 o)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:28:41 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:28:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:28:41 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:28:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:28:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:28:41 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:28:41 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:28:41 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:28:41 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:28:41 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:28:41 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:28:41 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:28:41 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:28:41 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:28:41 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:28:41 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:28:41 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:28:41 symfony [info] {main} Get slot "title"
+Jan 11 12:28:41 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:28:41 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:28:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:28:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} Configuration 7255.45 ms (12)
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} Action "job/index" 35.45 ms (1)
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 74.05 ms (1)
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} Partial "job/_list" 9.01 ms (2)
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} Component "language/language" 11.80 ms (1)
+Jan 11 12:28:41 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.47 ms (1)
+Jan 11 12:28:41 symfony [info] {sfWebResponse} Send content (204871 o)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:29:23 symfony [info] {sfViewCacheManager} Cache for "job/index" does not exist
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:29:23 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:29:23 symfony [info] {sfFrontWebController} Redirect to "http://jobeet.localhost/frontend_cache.php/en/"
+Jan 11 12:29:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 11 12:29:23 symfony [info] {sfWebResponse} Send header "Location: http://jobeet.localhost/frontend_cache.php/en/"
+Jan 11 12:29:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:29:23 symfony [info] {sfWebDebugLogger} Configuration 6.34 ms (10)
+Jan 11 12:29:23 symfony [info] {sfWebDebugLogger} Action "job/index" 2.32 ms (1)
+Jan 11 12:29:23 symfony [info] {sfWebResponse} Send content (117 o)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:29:23 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:29:23 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" does not exist
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:29:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:29:23 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:29:23 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:29:23 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:29:23 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:29:23 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:29:23 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:29:23 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:29:23 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:29:23 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:29:23 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:29:23 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:29:23 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:29:23 symfony [info] {main} Get slot "title"
+Jan 11 12:29:23 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:29:24 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:29:24 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=en"
+Jan 11 12:29:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:29:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:29:24 symfony [info] {sfWebResponse} Send header "Expires: Thu, 12 Jan 2012 10:29:24 GMT"
+Jan 11 12:29:24 symfony [info] {sfWebResponse} Send header "Cache-Control: max-age=86400"
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} Configuration 2.18 ms (12)
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} Action "job/index" 44.19 ms (1)
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 100.43 ms (1)
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} Partial "job/_list" 13.91 ms (2)
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} Component "language/language" 10.21 ms (1)
+Jan 11 12:29:24 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.22 ms (1)
+Jan 11 12:29:24 symfony [info] {sfWebResponse} Send content (222331 o)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:30:55 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:30:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:30:55 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:30:55 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" exists
+Jan 11 12:30:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:30:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:30:55 symfony [info] {sfWebResponse} Send header "Expires: Thu, 12 Jan 2012 10:29:24 GMT"
+Jan 11 12:30:55 symfony [info] {sfWebResponse} Send header "Cache-Control: max-age=86400"
+Jan 11 12:30:55 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (9)
+Jan 11 12:30:55 symfony [info] {sfWebResponse} Send content (150806 o)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:31:07 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /fr/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'fr',)
+Jan 11 12:31:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:31:07 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:31:07 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=fr" does not exist
+Jan 11 12:31:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:31:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:31:07 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:31:07 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:31:07 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 'fr' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:31:07 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:31:07 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:31:07 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 'fr' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:31:07 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:31:07 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:31:07 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:31:07 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:31:07 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:31:07 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:31:07 symfony [info] {main} Get slot "title"
+Jan 11 12:31:07 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:31:07 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:31:07 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=fr"
+Jan 11 12:31:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:31:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:31:07 symfony [info] {sfWebResponse} Send header "Expires: Thu, 12 Jan 2012 10:31:07 GMT"
+Jan 11 12:31:07 symfony [info] {sfWebResponse} Send header "Cache-Control: max-age=86400"
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (12)
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} Action "job/index" 25.87 ms (1)
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 63.72 ms (1)
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} Partial "job/_list" 8.51 ms (2)
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} Component "language/language" 10.52 ms (1)
+Jan 11 12:31:07 symfony [info] {sfWebDebugLogger} Partial "language/_language" 3.92 ms (1)
+Jan 11 12:31:07 symfony [info] {sfWebResponse} Send content (222271 o)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:31:13 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /fr/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'fr',)
+Jan 11 12:31:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:31:13 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:31:13 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=fr" exists
+Jan 11 12:31:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:31:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:31:13 symfony [info] {sfWebResponse} Send header "Expires: Thu, 12 Jan 2012 10:31:07 GMT"
+Jan 11 12:31:13 symfony [info] {sfWebResponse} Send header "Cache-Control: max-age=86400"
+Jan 11 12:31:13 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+Jan 11 12:31:13 symfony [info] {sfWebResponse} Send content (150821 o)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:31:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /en with parameters array (  'module' => 'en',  'action' => 'index',)
+Jan 11 12:31:26 symfony [info] {sfFrontWebController} Action "en/index" does not exist
+Jan 11 12:31:26 symfony [err] {sfError404Exception} Action "en/index" does not exist.
+Jan 11 12:31:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 11 12:31:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:34:24 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:34:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:34:24 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:34:24 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" does not exist
+Jan 11 12:34:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:34:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:34:24 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:34:24 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:34:24 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:34:24 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:24 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:34:25 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:34:25 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:34:25 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:34:25 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:34:25 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:34:25 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:34:25 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:34:25 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:34:25 symfony [info] {main} Get slot "title"
+Jan 11 12:34:25 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:34:25 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:34:25 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=en"
+Jan 11 12:34:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:34:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:34:25 symfony [info] {sfWebResponse} Send header "Expires: Thu, 12 Jan 2012 10:34:25 GMT"
+Jan 11 12:34:25 symfony [info] {sfWebResponse} Send header "Cache-Control: max-age=86400"
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} Configuration 6966.47 ms (13)
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} Action "job/index" 35.12 ms (1)
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 86.43 ms (1)
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} Partial "job/_list" 9.77 ms (2)
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} Component "language/language" 10.43 ms (1)
+Jan 11 12:34:25 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.59 ms (1)
+Jan 11 12:34:25 symfony [info] {sfWebResponse} Send content (222289 o)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:35:20 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:35:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:35:20 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:35:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:35:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:35:20 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:35:20 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:35:20 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" does not exist
+Jan 11 12:35:20 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:35:20 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:35:20 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:35:20 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:35:20 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:35:20 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:35:20 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:35:20 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:35:20 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=en"
+Jan 11 12:35:20 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:35:20 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:35:20 symfony [info] {main} Get slot "title"
+Jan 11 12:35:20 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:35:20 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:35:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:35:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} Configuration 7334.55 ms (12)
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} Action "job/index" 50.24 ms (1)
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 96.43 ms (1)
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} Partial "job/_list" 18.58 ms (2)
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} Component "language/language" 9.91 ms (1)
+Jan 11 12:35:20 symfony [info] {sfWebDebugLogger} Partial "language/_language" 2.27 ms (1)
+Jan 11 12:35:21 symfony [info] {sfWebResponse} Send content (217617 o)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:37:07 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:37:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:37:07 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:37:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:37:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:37:07 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" exists
+Jan 11 12:37:07 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:37:07 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:37:07 symfony [info] {main} Get slot "title"
+Jan 11 12:37:07 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:37:07 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:37:07 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:37:07 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:37:07 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:37:07 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:37:07 symfony [info] {sfViewCacheManager} Save cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a"
+Jan 11 12:37:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:37:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:37:07 symfony [info] {sfWebDebugLogger} Configuration 8.33 ms (13)
+Jan 11 12:37:07 symfony [info] {sfWebDebugLogger} Action "job/index" 0.54 ms (1)
+Jan 11 12:37:07 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 109.49 ms (1)
+Jan 11 12:37:07 symfony [info] {sfWebDebugLogger} Component "language/language" 9.55 ms (1)
+Jan 11 12:37:07 symfony [info] {sfWebDebugLogger} Partial "language/_language" 60.60 ms (1)
+Jan 11 12:37:07 symfony [info] {sfWebResponse} Send content (215147 o)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:47:24 symfony [info] {sfPatternRouting} Match route "localized_homepage" (/:sf_culture/) for /en/ with parameters array (  'module' => 'job',  'action' => 'index',  'sf_culture' => 'en',)
+Jan 11 12:47:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:47:24 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:47:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:47:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:47:24 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:47:24 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en" does not exist
+Jan 11 12:47:24 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:47:24 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:47:24 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:47:24 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:47:24 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:47:24 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:47:24 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:47:24 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=en"
+Jan 11 12:47:24 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:47:24 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:47:24 symfony [info] {main} Get slot "title"
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:47:24 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:47:24 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:47:24 symfony [info] {sfViewCacheManager} Save cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a"
+Jan 11 12:47:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:47:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} Configuration 7479.52 ms (12)
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} Action "job/index" 57.35 ms (1)
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 107.00 ms (1)
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} Partial "job/_list" 14.25 ms (2)
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} Component "language/language" 9.25 ms (1)
+Jan 11 12:47:24 symfony [info] {sfWebDebugLogger} Partial "language/_language" 5.14 ms (1)
+Jan 11 12:47:24 symfony [info] {sfWebResponse} Send content (247247 o)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:49:29 symfony [info] {sfPatternRouting} Match route "job_new" (/:sf_culture/job/new.:sf_format) for /en/job/new with parameters array (  'module' => 'job',  'action' => 'new',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:49:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:49:29 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:49:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:49:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:49:29 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Jan 11 12:49:29 symfony [info] {sfViewCacheManager} Cache for "job/new?sf_culture=en&sf_format=html" does not exist
+Jan 11 12:49:29 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Jan 11 12:49:29 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_form.php"
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category.ID FROM jobeet_category
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 3 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:29 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:30 symfony [info] {sfViewCacheManager} Save cache for "job/new?sf_culture=en&sf_format=html"
+Jan 11 12:49:30 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:30 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:30 symfony [info] {main} Get slot "title"
+Jan 11 12:49:30 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:49:30 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:49:30 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:49:30 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:49:30 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:49:30 symfony [info] {sfViewCacheManager} Save cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a"
+Jan 11 12:49:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:49:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} Configuration 7391.41 ms (12)
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} Action "job/new" 130.17 ms (1)
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 455.89 ms (1)
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} Partial "job/_form" 72.59 ms (1)
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} Component "language/language" 6.96 ms (1)
+Jan 11 12:49:30 symfony [info] {sfWebDebugLogger} Partial "language/_language" 4.52 ms (1)
+Jan 11 12:49:30 symfony [info] {sfWebResponse} Send content (239802 o)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:49:53 symfony [info] {sfPatternRouting} Match route "job_new" (/:sf_culture/job/new.:sf_format) for /en/job/new with parameters array (  'module' => 'job',  'action' => 'new',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:49:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:49:53 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Cache for "job/new?sf_culture=en&sf_format=html" does not exist
+Jan 11 12:49:53 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Jan 11 12:49:53 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_form.php"
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category.ID FROM jobeet_category
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 3 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:49:53 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Save cache for "job/new?sf_culture=en&sf_format=html"
+Jan 11 12:49:53 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:53 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:53 symfony [info] {main} Get slot "title"
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:49:53 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" does not exist
+Jan 11 12:49:53 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:49:53 symfony [info] {sfViewCacheManager} Save cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a"
+Jan 11 12:49:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:49:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} Configuration 7134.75 ms (12)
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} Action "job/new" 12.34 ms (1)
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 158.31 ms (1)
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} Partial "job/_form" 127.57 ms (1)
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} Component "language/language" 7.09 ms (1)
+Jan 11 12:49:53 symfony [info] {sfWebDebugLogger} Partial "language/_language" 4.81 ms (1)
+Jan 11 12:49:53 symfony [info] {sfWebResponse} Send content (239837 o)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:49:58 symfony [info] {sfPatternRouting} Match route "job_new" (/:sf_culture/job/new.:sf_format) for /en/job/new with parameters array (  'module' => 'job',  'action' => 'new',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:49:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:49:58 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:49:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:49:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:49:58 symfony [info] {sfViewCacheManager} Cache for "job/new?sf_culture=en&sf_format=html" exists
+Jan 11 12:49:58 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:58 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:49:58 symfony [info] {main} Get slot "title"
+Jan 11 12:49:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:49:58 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:49:58 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" exists
+Jan 11 12:49:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:49:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:49:58 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (11)
+Jan 11 12:49:58 symfony [info] {sfWebDebugLogger} Action "job/new" 0.45 ms (1)
+Jan 11 12:49:58 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 45.28 ms (1)
+Jan 11 12:49:58 symfony [info] {sfWebResponse} Send content (187225 o)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:50:04 symfony [info] {sfPatternRouting} Match route "job_create" (/:sf_culture/job.:sf_format) for /en/job with parameters array (  'module' => 'job',  'action' => 'create',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:50:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:50:04 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:50:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:50:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:50:04 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category.ID FROM jobeet_category WHERE jobeet_category.ID=:p1 LIMIT 1
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:04 symfony [info] {jobActions} Change template to "CURRENT/new"
+Jan 11 12:50:04 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Jan 11 12:50:04 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_form.php"
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category.ID FROM jobeet_category
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 3 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:04 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:04 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:04 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:04 symfony [info] {main} Get slot "title"
+Jan 11 12:50:04 symfony [info] {main} Call "language->executeLanguage()"
+Jan 11 12:50:04 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/language/templates/_language.php"
+Jan 11 12:50:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:50:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (10)
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} Action "job/create" 36.60 ms (1)
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} View "Success" for "job/create" 63.27 ms (1)
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} Partial "job/_form" 41.73 ms (1)
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} Component "language/language" 6.71 ms (1)
+Jan 11 12:50:04 symfony [info] {sfWebDebugLogger} Partial "language/_language" 1.55 ms (1)
+Jan 11 12:50:04 symfony [info] {sfWebResponse} Send content (204671 o)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:50:16 symfony [info] {sfPatternRouting} Match route "job_create" (/:sf_culture/job.:sf_format) for /en/job with parameters array (  'module' => 'job',  'action' => 'create',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:50:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:50:16 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:50:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:50:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:50:16 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category.ID FROM jobeet_category WHERE jobeet_category.ID=:p1 LIMIT 1
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} query: SELECT nextval('jobeet_job_id_seq')
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} prepare: INSERT INTO jobeet_job (ID,CATEGORY_ID,TYPE,COMPANY,URL,POSITION,LOCATION,DESCRIPTION,HOW_TO_APPLY,TOKEN,IS_PUBLIC,EMAIL,EXPIRES_AT,CREATED_AT,UPDATED_AT) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9,:p10,:p11,:p12,:p13,:p14,:p15)
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 35 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'full-time' at position :p3 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'asdfsad' at position :p4 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'sadfdsa' at position :p5 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'asdfsdaf' at position :p6 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'sdfasdf' at position :p7 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'sadfsad' at position :p8 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'asdfsad' at position :p9 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'f39ff86c17e5497fec4f3167c31e4576103e863a' at position :p10 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding true at position :p11 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding 'asdf@adfas.sdf' at position :p12 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding '2012-02-10T12:50:16+0200' at position :p13 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding '2012-01-11T12:50:16+0200' at position :p14 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [debug] {sfPropelLogger} Binding '2012-01-11T12:50:16+0200' at position :p15 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:16 symfony [info] {sfFrontWebController} Redirect to "/frontend_cache.php/en/job/f39ff86c17e5497fec4f3167c31e4576103e863a"
+Jan 11 12:50:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 11 12:50:16 symfony [info] {sfWebResponse} Send header "Location: /frontend_cache.php/en/job/f39ff86c17e5497fec4f3167c31e4576103e863a"
+Jan 11 12:50:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:50:16 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (8)
+Jan 11 12:50:16 symfony [info] {sfWebDebugLogger} Action "job/create" 772.96 ms (1)
+Jan 11 12:50:16 symfony [info] {sfWebResponse} Send content (138 o)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:50:17 symfony [info] {sfPatternRouting} Match route "job_show" (/:sf_culture/job/:token.:sf_format) for /en/job/f39ff86c17e5497fec4f3167c31e4576103e863a with parameters array (  'module' => 'job',  'action' => 'show',  'sf_format' => 'html',  'sf_culture' => 'en',  'token' => 'f39ff86c17e5497fec4f3167c31e4576103e863a',)
+Jan 11 12:50:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:50:17 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:50:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:50:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:50:17 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jan 11 12:50:17 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:50:17 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.TOKEN=:p1 LIMIT 1
+Jan 11 12:50:17 symfony [debug] {sfPropelLogger} Binding 'f39ff86c17e5497fec4f3167c31e4576103e863a' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:17 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jan 11 12:50:17 symfony [info] {main} Set slot "title"
+Jan 11 12:50:17 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_admin.php"
+Jan 11 12:50:17 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:17 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:17 symfony [info] {main} Get slot "title"
+Jan 11 12:50:17 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.ID IN (:p1)
+Jan 11 12:50:17 symfony [debug] {sfPropelLogger} Binding 35 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:17 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:50:17 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" exists
+Jan 11 12:50:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:50:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:50:17 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (11)
+Jan 11 12:50:17 symfony [info] {sfWebDebugLogger} Action "job/show" 41.71 ms (1)
+Jan 11 12:50:17 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 155.06 ms (1)
+Jan 11 12:50:17 symfony [info] {sfWebDebugLogger} Partial "job/_admin" 100.58 ms (1)
+Jan 11 12:50:17 symfony [info] {sfWebResponse} Send content (204800 o)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:50:20 symfony [info] {sfPatternRouting} Match route "job_delete" (/:sf_culture/job/:token.:sf_format) for /en/job/f39ff86c17e5497fec4f3167c31e4576103e863a with parameters array (  'module' => 'job',  'action' => 'delete',  'sf_format' => 'html',  'sf_culture' => 'en',  'token' => 'f39ff86c17e5497fec4f3167c31e4576103e863a',)
+Jan 11 12:50:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:50:20 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:50:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:50:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:50:20 symfony [info] {jobActions} Call "jobActions->executeDelete()"
+Jan 11 12:50:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.TOKEN=:p1 LIMIT 1
+Jan 11 12:50:20 symfony [debug] {sfPropelLogger} Binding 'f39ff86c17e5497fec4f3167c31e4576103e863a' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: DELETE FROM jobeet_job WHERE jobeet_job.ID=:p1
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 35 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [info] {sfFrontWebController} Redirect to "http://jobeet.localhost/frontend_cache.php/en/job"
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send header "Location: http://jobeet.localhost/frontend_cache.php/en/job"
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} Configuration 1.07 ms (8)
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} Action "job/delete" 502.77 ms (1)
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send content (120 o)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "change_language" (/change_language)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_new" (/:sf_culture/affiliate/new.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_create" (/:sf_culture/affiliate.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "affiliate_wait" (/:sf_culture/affiliate/:id/wait.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/:sf_culture/category/:slug.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "job_search" (/:sf_culture/search)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/:sf_culture/job/new.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/:sf_culture/job.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/:sf_culture/job/:token/edit.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/:sf_culture/job/:token.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_publish" (/:sf_culture/job/:token/publish.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_extend" (/:sf_culture/job/:token/extend.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/:sf_culture/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "about" (/about)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfPropelRoute "api_jobs" (/api/:token/jobs.:sf_format)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "localized_homepage" (/:sf_culture/)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 11 12:50:21 symfony [info] {sfPatternRouting} Match route "job" (/:sf_culture/job.:sf_format) for /en/job with parameters array (  'module' => 'job',  'action' => 'index',  'sf_format' => 'html',  'sf_culture' => 'en',)
+Jan 11 12:50:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 11 12:50:21 symfony [info] {sfFilterChain} Executing filter "sfCacheFilter"
+Jan 11 12:50:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 11 12:50:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 11 12:50:21 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT DISTINCT  jobeet_category.ID FROM jobeet_category, jobeet_job WHERE jobeet_job.EXPIRES_AT>:p1 AND jobeet_job.IS_ACTIVATED=:p2 AND jobeet_category.ID=jobeet_job.CATEGORY_ID
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:50:21 +0200' at position :p1 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding true at position :p2 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:21 symfony [info] {sfViewCacheManager} Cache for "job/index?sf_culture=en&sf_format=html" does not exist
+Jan 11 12:50:21 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:50:21 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:21 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:50:21 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_category_i18n.ID, jobeet_category_i18n.CULTURE, jobeet_category_i18n.NAME, jobeet_category_i18n.SLUG FROM jobeet_category_i18n WHERE jobeet_category_i18n.ID=:p1 AND jobeet_category_i18n.CULTURE=:p2
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 'en' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3 ORDER BY jobeet_job.EXPIRES_AT DESC,jobeet_job.EXPIRES_AT DESC LIMIT 5
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:50:21 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:21 symfony [info] {sfPartialView} Render "/home/ianjvr/mira/jobeet/apps/frontend/modules/job/templates/_list.php"
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM jobeet_job WHERE jobeet_job.CATEGORY_ID=:p1 AND jobeet_job.EXPIRES_AT>:p2 AND jobeet_job.IS_ACTIVATED=:p3
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding '2012-01-11 12:50:21 +0200' at position :p2 w/ PDO type PDO::PARAM_STR
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding true at position :p3 w/ PDO type PDO::PARAM_BOOL
+Jan 11 12:50:21 symfony [info] {sfViewCacheManager} Save cache for "job/index?sf_culture=en&sf_format=html"
+Jan 11 12:50:21 symfony [info] {sfPHPView} Decorate content with "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:21 symfony [info] {sfPHPView} Render "/home/ianjvr/mira/jobeet/apps/frontend/templates/layout.php"
+Jan 11 12:50:21 symfony [info] {main} Get slot "title"
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM jobeet_job WHERE jobeet_job.ID IN (:p1)
+Jan 11 12:50:21 symfony [debug] {sfPropelLogger} Binding 35 at position :p1 w/ PDO type PDO::PARAM_INT
+Jan 11 12:50:21 symfony [info] {sfViewCacheManager} Generate cache key
+Jan 11 12:50:21 symfony [info] {sfViewCacheManager} Cache for "@sf_cache_partial?module=language&action=_language&sf_cache_key=40cd750bba9870f18aada2478b24840a" exists
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} Configuration 1.87 ms (11)
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} Action "job/index" 26.74 ms (1)
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 327.48 ms (1)
+Jan 11 12:50:21 symfony [info] {sfWebDebugLogger} Partial "job/_list" 10.16 ms (2)
+Jan 11 12:50:21 symfony [info] {sfWebResponse} Send content (219700 o)
