@@ -1,2 +1,2 @@
 #!/bin/sh
-symfony test-unit
+./symfony test-unit
