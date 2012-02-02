@@ -5,4 +5,4 @@ sudo -u postgres createdb --owner jobeet jobeet
 
 ./symfony propel:build-all --no-confirmation
 
-./symfony test-unit
+./symfony test:all
