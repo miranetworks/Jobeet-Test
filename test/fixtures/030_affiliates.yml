@@ -5,7 +5,7 @@ JobeetAffiliate:
     is_active: true
     token:     sensio_labs
     jobeet_category_affiliates: [programming]
- 
+
   symfony:
     url:       http://www.symfony-project.org/
     email:     fabien.potencier@example.org
