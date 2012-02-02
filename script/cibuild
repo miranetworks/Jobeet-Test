@@ -3,6 +3,6 @@
 sudo -u postgres psql -U postgres template1 --command="create user jobeet password 'password' createdb createuser;"
 sudo -u postgres createdb --owner jobeet jobeet
 
-./symfony propel:build-all
+./symfony propel:build-all --no-confirmation
 
 ./symfony test-unit
